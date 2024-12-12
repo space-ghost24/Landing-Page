@@ -84,3 +84,42 @@ button{
 button:hover{
     background-color: #81a9eb;
 }
+
+.info{
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px 0;
+}
+
+.infoContent{
+    display: flex;
+    gap: 52px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 170px;
+    gap: 10px;
+}
+
+.image{
+    height: 160px;
+    width: 160px;
+    border: solid 4px;
+    border-radius: 15px;
+    border-color: #3882F6;
+}
+
+
+.subtext{
+    font-size: 18px;
+    color: grey;
+}
