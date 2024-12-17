@@ -113,7 +113,7 @@ h2{
 .image{
     height: 160px;
     width: 160px;
-    border: solid 4px;
+    border: solid 4px; 
     border-radius: 15px;
     border-color: #3882F6;
 }
@@ -122,4 +122,33 @@ h2{
 .subtext{
     font-size: 18px;
     color: grey;
+}
+
+.quotes{
+    background-color: #E5E7EB;
+    margin: 0 0 120px 0;
+    padding: 120px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainQuote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    max-width: 790px;
+}
+
+.thor{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 20px;
+    font-weight: 900;
+    font-size: 25px;
+    font-style: normal;
 }
